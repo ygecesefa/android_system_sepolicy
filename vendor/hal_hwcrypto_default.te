@@ -1,3 +1,4 @@
+starting_at_board_api(202504, `
 type hal_hwcrypto_default, domain;
 hal_server_domain(hal_hwcrypto_default, hal_hwcrypto)
 
@@ -10,3 +11,4 @@ allow hal_hwcrypto_default ion_device:chr_file rw_file_perms;
 binder_call(hal_hwcrypto_client, hal_hwcrypto_server);
 hal_attribute_service(hal_hwcrypto, hal_hwcrypto_service);
 binder_use(hal_hwcrypto_server);
+')
