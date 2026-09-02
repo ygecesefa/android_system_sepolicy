@@ -221,6 +221,7 @@ var (
 		"artd":                                                                []string{"artd_fuzzer"},
 		"artd_pre_reboot":                                                     []string{"artd_fuzzer"},
 		"assetatlas":                                                          EXCEPTION_NO_FUZZER,
+		"astroid_control":                                                     EXCEPTION_NO_FUZZER,
 		"attention":                                                           EXCEPTION_NO_FUZZER,
 		"audio":                                                               EXCEPTION_NO_FUZZER,
 		"auth":                                                                EXCEPTION_NO_FUZZER,

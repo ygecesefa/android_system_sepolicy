@@ -1,4 +1,5 @@
 type ambient_context_service,        app_api_service, system_server_service, service_manager_type;
+type astroid_control_service,         system_server_service, service_manager_type;
 type authentication_policy_service,  system_api_service, system_server_service, service_manager_type;
 
 # These types will be public starting at board api 202504
